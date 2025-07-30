@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #4088d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #2c3e50;
+}
+
+/* Sections principales */
+main {
+    padding: 20px;
+}
+
+/* Modèle de boîte CSS appliqué */
+.box {
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 20px;         /* espace intérieur */
+    margin: 20px auto;     /* espace extérieur */
+    width: 80%;            /* largeur */
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
